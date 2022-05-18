@@ -1,0 +1,106 @@
+.mycart {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 15px 30px 15px;
+}
+.mycart-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0px;
+  padding: 0px;
+}
+.mycart-price {
+  display: flex;
+  margin-left: 15px;
+  margin-top: 0px;
+  padding: 0px;
+  justify-content: space-between;
+}
+.mycart-price button {
+  display: flex;
+  background-color: #FFE74C;
+  color: black;
+  font-size: 1rem;
+  width: 7rem;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  justify-content: center;
+  align-self: center;
+}
+
+.mycart-gallery {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0px 15px 0px;
+}
+.mycart-gallery-item {
+  display: flex;
+  background-color: white;
+  margin: 15px 0px 15px 0px;
+  align-items: center;
+}
+.mycart-gallery-item-left {
+  width: 30%;
+  padding: 15px;
+}
+.mycart-gallery-item-left img {
+  max-width: 100%;
+}
+.mycart-gallery-item-right {
+  display: flex;
+  flex-direction: column;
+}
+.mycart-gallery-item-right-product {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+.mycart-gallery-item-right-product-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0px;
+}
+.mycart-gallery-item-right-product-value {
+  font-size: 0.9rem;
+  margin-left: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.mycart-gallery-item-right-quantity {
+  margin-bottom: 0px;
+}
+.mycart-gallery-item-right-button {
+  display: flex;
+}
+.mycart-gallery-item-right-button button {
+  font-size: 1rem;
+}
+.mycart-gallery-item-right-button-edit {
+  background-color: #FFE74C;
+  width: 4rem;
+  padding: 7px;
+  border: none;
+  border-radius: 3px;
+  justify-content: center;
+  align-self: center;
+  margin-right: 5px;
+}
+.mycart-gallery-item-right-button-edit a {
+  text-decoration: none;
+  color: black;
+}
+.mycart-gallery-item-right-button-del {
+  background-color: #ff4c4c;
+  color: white;
+  width: 5rem;
+  padding: 7px;
+  border: none;
+  border-radius: 3px;
+  justify-content: center;
+  align-self: center;
+}
+.mycart-gallery-item-right-button-del a {
+  text-decoration: none;
+  color: white;
+}

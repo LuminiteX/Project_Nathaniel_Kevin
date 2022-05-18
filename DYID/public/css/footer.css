@@ -1,0 +1,25 @@
+.footer {
+  background-color: #0046be;
+  padding-top: 20px;
+}
+
+.footer-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-top a {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.footer-top a img {
+  height: 30px;
+  width: 30px;
+}
+
+.footer-bot {
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding-top: 10px;
+}

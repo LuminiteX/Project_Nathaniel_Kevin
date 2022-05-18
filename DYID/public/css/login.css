@@ -1,0 +1,53 @@
+.login {
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  max-width: 800px;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.699);
+  background-color: white;
+}
+.login-form-group {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 30px 30px 30px;
+  margin-top: 0px;
+}
+.login-form-group input {
+  margin-bottom: 20px;
+}
+.login-form-group input[type=email], .login-form-group [type=password] {
+  font-size: 1.05rem;
+  padding: 10px 0px 10px 0px;
+}
+.login-form-group input[type=submit] {
+  width: 5rem;
+  font-size: 1rem;
+  position: relative;
+  left: calc(100% - 90px);
+  background-color: #FFE74C;
+  color: black;
+  border: none;
+  padding: 10px 0px 10px 0px;
+  border-radius: 5px;
+}
+.login-form-group label {
+  font-size: 1.05rem;
+  font-weight: medium;
+}
+.login-form p {
+  padding-top: 10px;
+  padding-left: 30px;
+  font-size: 1.5rem;
+  font-weight: medium;
+  color: #4343e9;
+}

@@ -1,0 +1,85 @@
+.transaction-header{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.panel-group{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.panel-heading-accordion {
+color: #444;
+background-color: white;
+cursor: pointer;
+width: 100%;
+padding: 18px;
+border: none;
+outline: none;
+text-align: left;
+font-size: 15px;
+transition: 0.4s;
+}
+
+
+
+.active, .panel-heading-accordion:hover {
+background-color: #ccc; 
+}
+
+.panel-heading-accordion:after{
+  content: '\02C5';
+  font-weight: bold;
+  margin-left: 10px;
+  float: right;
+}
+
+.panel-heading-accordion-description {
+padding: 0 18px;
+background-color: white;
+max-height: 0;
+overflow: hidden;
+transition: max-height 0.2s ease-out;
+}
+
+.active:after {
+  content: "\02C4";
+}
+
+.table{
+  display:flex;
+  height: 100px;
+  border-style: ridge;
+}
+
+.image{
+  width: 400px;
+}
+
+.desc{
+  width: 90%;
+}
+
+.desc-peace{
+margin-top: 10px;
+}
+
+.price{
+  position: relative;
+  width: 10rem;
+  bottom: 0;
+  right: 0;
+  display: flex;
+}
+
+.price span {
+  align-self: flex-end;
+}
+
+.totalprice{
+  position: relative;
+  text-align:right;
+  vertical-align:bottom;
+  bottom: 0;
+  right: 0;
+}

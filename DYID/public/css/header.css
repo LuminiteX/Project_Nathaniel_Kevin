@@ -1,0 +1,106 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-top {
+  display: flex;
+  background-color: #0046be;
+  padding: 10px 0px 10px 0;
+  margin: 0px;
+  align-items: center;
+}
+.header-top img {
+  margin-left: 30px;
+}
+.header-top form {
+  display: flex;
+  align-items: center;
+}
+.header-top form input[type=text] {
+  width: 70vw;
+  margin-left: 30px;
+  margin-right: 15px;
+}
+
+.header-bot {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  background-color: #FFE74C;
+  align-items: center;
+}
+.header-bot ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  overflow: hidden;
+  align-items: center;
+}
+.header-bot ul li {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+.header-bot ul li a {
+  color: black;
+  text-decoration: none;
+}
+.header-bot-dropdown, .header-bot-dropdown-btn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  background-color: inherit;
+  margin: 0;
+}
+.header-bot-dropdown {
+  float: left;
+  overflow: hidden;
+}
+.header-bot-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #FFE74C;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.header-bot-dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.header-bot-dropdown-content a:hover {
+  background-color: #ecd648;
+}
+.header-bot-dropdown:hover .header-bot-dropdown-content {
+  display: block;
+}
+.header-bot-right {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: flex-end;
+}
+.header-bot-right-btn {
+  border-style: solid;
+  border-color: black;
+  border-radius: 5px;
+  border-width: 2px;
+  padding: 5px 7px 5px 7px;
+}
+.header-bot-right-btn a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-bot-right-btn a img {
+  height: 20px;
+}

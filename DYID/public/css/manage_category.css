@@ -1,0 +1,51 @@
+table, th, td {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #659feb;
+    text-align: left;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+.btn{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.updateBtn {
+    background-color: #d9ff00;
+    color: black;
+    border: none;
+    padding: 10px 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.deleteBtn{
+    background-color: #ff5100;
+    color: black;
+    border: none;
+    padding: 10px 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+table tr:nth-child(odd) {
+    background: #FFF3cd
+}
+table tr:nth-child(even) {
+    background: #F2e7c3
+}

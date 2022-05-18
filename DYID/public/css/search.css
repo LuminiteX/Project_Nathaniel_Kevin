@@ -1,0 +1,82 @@
+.title {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.gallery {
+  display: flex;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.gallery-item {
+  display: flex;
+  flex-direction: column;
+  border: solid thin #FFE74C;
+  flex-basis: 30%;
+  background-color: white;
+  margin: 15px 0 15px 0;
+  max-height: 400px;
+  height: auto;
+}
+.gallery-item-top {
+  width: 100%;
+  height: 60%;
+}
+.gallery-item-top img {
+  width: 100%;
+  height: 100%;
+}
+.gallery-item-bot {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+.gallery-item-bot-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.gallery-item-bot-title-product {
+  font-weight: 600;
+  font-size: 1.02rem;
+  margin: 0;
+  padding: 0;
+}
+.gallery-item-bot-title-category {
+  font-size: 0.8rem;
+  color: #6d6d6d;
+  margin: 0;
+  padding: 0;
+}
+.gallery-item-bot-price {
+  color: #0046bebd;
+  margin: 10px 0px 20px 0px;
+}
+.gallery-item-bot-more {
+  display: flex;
+  background-color: #FFE74C;
+  color: black;
+  font-size: 1rem;
+  width: 7rem;
+  padding: 7px;
+  border: none;
+  border-radius: 3px;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.pag {
+  margin-top: 0px;
+  margin-left: 2.4vw;
+}
+
+h2 {
+  text-align: center;
+}

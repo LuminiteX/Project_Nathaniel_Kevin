@@ -1,0 +1,74 @@
+.insert_product {
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.insert_product-form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  max-width: 1000px;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.699);
+  background-color: white;
+}
+.insert_product-form form {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 30px 30px 30px;
+  margin-top: 0px;
+}
+.insert_product-form form input, .insert_product-form form select {
+  margin-bottom: 20px;
+}
+.insert_product-form form input[type=text], .insert_product-form form [type=password], .insert_product-form form [type=number], .insert_product-form form select, .insert_product-form form option {
+  font-size: 1.05rem;
+  padding: 10px 0px 10px 0px;
+}
+.insert_product-form form input[type=submit] {
+  font-size: 1rem;
+  width: 6rem;
+  position: relative;
+  left: calc(100% - 100px);
+  background-color: #FFE74C;
+  color: black;
+  border: none;
+  padding: 10px 0px 10px 0px;
+  border-radius: 5px;
+}
+.insert_product-form form label {
+  font-size: 1.05rem;
+  font-weight: medium;
+  margin-bottom: 10px;
+}
+.insert_product-form form textarea {
+  margin-bottom: 20px;
+  text-wrap: soft;
+  padding: 10px 0px 10px 0px;
+  font-size: 1.05rem;
+}
+.insert_product-form form input[type=file] {
+  border: solid grey thin;
+  border-radius: 2px;
+  font-size: 1.05rem;
+}
+.insert_product-form form input[type=file]::-webkit-file-upload-button {
+  background-color: #ebebeb;
+  border: none;
+  height: calc(1.05rem + 20px);
+}
+.insert_product-form form input[type=file]::file-selector-button {
+  background-color: #ebebeb;
+  border: none;
+  height: calc(1.05rem + 20px);
+}
+.insert_product-form p {
+  padding-top: 10px;
+  padding-left: 30px;
+  font-size: 1.5rem;
+  font-weight: medium;
+}
