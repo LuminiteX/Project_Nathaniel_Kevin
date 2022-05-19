@@ -1,0 +1,22 @@
+.container-about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    max-width: 1500px;
+}
+
+.about-title{
+    font-weight: 400;
+    color: #B2170D;
+    text-align: center;
+}
+
+.container-about > img {
+    width: 10vw;
+    min-width: 200px;
+}
+
+.container-about > p {
+    max-width: 800px;
+}

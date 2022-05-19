@@ -1,0 +1,79 @@
+.container-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    max-width: 1500px;
+}
+
+.menu-title{
+    font-weight: 400;
+    color: #B2170D;
+    text-align: center;
+}
+
+.container-menu > ul{
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 2rem;
+    list-style-type: none;
+}
+
+.container-menu > ul > li{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #962f28;
+    transition: transform .2s;
+}
+
+.container-menu > ul > li:hover{
+    transform: scale(1.05);
+    filter: brightness(110%);
+}
+
+.container-menu > ul > li > figure {
+    max-height: 250px;
+    overflow: hidden;
+    position: relative;
+    margin: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.container-menu > ul > li > figure > img {
+    width: 100%;
+}
+
+.container-menu > ul > li > figure > figcaption {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+    width: 100%;
+}
+
+.container-menu > ul > li > figure > figcaption > h2 {
+    color: white;
+    padding: .75rem;
+    font-size: 1.25rem;
+    margin: 0px;
+}
+
+.container-menu > ul > li > p {
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 1rem .75rem;
+    margin: 0px;
+    color: white;
+}
+
+.container-menu > ul > li > h3 {
+    line-height: 1.5;
+    padding: 1rem .75rem;
+    padding-bottom: 0px;
+    margin: 0px;
+    color: white;
+    text-align: right;
+    font-weight: 400;
+}

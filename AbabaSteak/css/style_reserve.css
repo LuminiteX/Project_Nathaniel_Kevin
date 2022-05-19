@@ -1,0 +1,26 @@
+.container-reserve{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    max-width: 1500px;
+}
+
+.reserve-title{
+    font-weight: 400;
+    color: #B2170D;
+    text-align: center;
+}
+
+.ReserveText{
+    text-align: center;
+}
+
+.fill{
+    left: 33%;
+    top: 20;
+}
+
+.button{
+    text-align: center;
+}

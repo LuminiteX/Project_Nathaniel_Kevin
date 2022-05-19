@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ABABA Steak - Our Menu</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style_index.css">
+    <link rel="stylesheet" href="../css/style_reserve.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script defer src="../js/reserve.js"></script>
+</head>
+<body>
+    <header>
+        <div class="navigation desktop">
+            <div class="nav-item">
+                <a class="nav-item-text" href="../html/menu.html">MENU</a>
+            </div>
+            <div class="nav-item">
+                <a class="nav-item-text" href="../html/promo.html">PROMO</a>
+            </div>
+            <div>
+                <a href="index.html">
+                    <img id="logo" src="../assets/Logo_Ababa.png" alt="ABABA Steak">
+                </a>
+            </div>
+            <div class="nav-item">
+                <a class="nav-item-text" href="../html/about_us.html">ABOUT US</a>
+            </div>
+            <div class="nav-item">
+                <a class="nav-item-box" style="font-weight: 500;" href="../html/reserve.html">RESERVE</a>
+            </div>
+        </div>
+        <div class="nav-mobile mobile">
+            <div>
+                <a href="index.html">
+                    <img id="logo" src="../assets/Logo_Ababa.png" alt="ABABA Steak">
+                </a>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">EXPLORE</button>
+                <div class="dropdown-content">
+                  <a class="nav-item-text" href="../html/menu.html">MENU</a>
+                  <a class="nav-item-text" href="../html/promo.html">PROMO</a>
+                  <a class="nav-item-text" href="../html/about_us.html">ABOUT US</a>
+                  <a class="nav-item-text" style="font-weight: 500;" href="../html/reserve.html">RESERVE</a>
+                </div>
+              </div>
+        </div>
+    </header>
+    <div class="banner" style="background-image: url(../assets/page_title.png);">
+        <div class="banner-title">
+            <h1>RESERVE</h1>
+        </div>
+    </div>
+    <div class="white-container">
+        <div class="container-reserve">
+            <h2 class="reserve-title">― MAKE A RESERVATION ―</h2>
+            <div class="fill">
+                <form name="regisForm" method="POST"  action="../html/reserve.html">
+                    <table>
+                        <tr>
+                            <td>Full name (*):</td>
+                            <td><input type="text" name="fname"></td>
+                        </tr>
+        
+                        <tr>
+                            <td>Email (*):</td>
+                            <td><input type="text" name="Email"></td>
+                        </tr>
+        
+                        <tr>
+                            <td>Phone Number (*):</td>
+                            <td><input type="text" name="Pnum"></td>
+                        </tr>
+        
+                        <tr>
+                            <td>Number of Guests (*):</td>
+                            <td><input type="text" name="Nguest"></td>
+                        </tr>
+        
+                        <tr>
+                            <td>Promo Code:</td>
+                            <td><input type="text" name="Pcode"></td>
+                        </tr>
+                    </table>
+                <br>
+                <div class="button">
+                    <input type="submit">
+                </div>
+                </form>
+                
+                <br>
+                <div id="error-Message">
+                    
+                </div>
+        
+                <div class="note">
+                    <br> <br> <br>
+                    Note: Fields that contain a star (*) is mandatory to be filled.
+                </div>
+            </div> 
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <h2>ABABA STEAK</h2>
+            <p>©2021 ABABA STEAK. ALL RIGHTS RESERVED.</p>
+            <p>SOME INFORMATION ON THIS SITE MAY VARY SLIGHTLY BY LOCATION AND IN STADIUMS, EVENT VENUES AND INTERNATIONAL JOINTS.</p>
+        </div>
+    </footer>
+</body>
